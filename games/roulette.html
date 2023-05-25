@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roulette</title>
+    <link rel="stylesheet" type="text/css" href="games.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="profile">
+            <p class="balance"></p>
+            <div class="addMoneyWrapper">
+                <p class="addMoney">+</p>
+            </div>
+        </div>
+        <h2 class="nav-title">GAMES</h2>
+        <a href="roulette.html"><div class="game">
+            <img src="icon.png" class="game-icon" width="20" height="20">
+            <p class="game-title">Roulette</p>
+        </div></a>
+
+    </div>
+    <div class="container">
+        <div class="bet-container">
+            <legend class="bet-legend">Total Bet ($)</legend>
+            <input class="bet" id="bet" placeholder="Bet"> 
+            <div class="spin-btn"><p>Spin</p></div>
+            <legend class="bets-legend">Bets (0)</legend>
+            <div class="bets">
+                
+            </div>
+        </div>
+        <div class="game-container">
+            <div class="roulette-container">
+                <button class="clearBetsBtn" onclick="clearBets()">Clear Bets</button>
+                <button class="undoBetBtn" onclick="undo()">Undo Bet</button>
+                <div class="claw"></div>
+                <div class="winningNumberWrapper">
+                    <p class="winningNumber"></p>
+                </div>
+                <img src="roulette.png" width="250" height="250" class="roulettePics">
+            </div>
+            <div class="number-container">
+                <div class="roulette"></div>
+            </div>
+        </div>
+    </div>
+    <script src="roulette.js"></script>
+</body>
+</html>

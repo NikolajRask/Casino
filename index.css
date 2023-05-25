@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+    background: rgb(40, 40, 40);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+ 
+.sideBar {
+    width: 250px;
+    height: 100%;
+}
+
+.nav {
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    background: black;
+}
