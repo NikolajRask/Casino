@@ -1,2 +1,2 @@
 # Casino
-A casino website with classic games like roulette and black jack
+A casino website with a roulette game
